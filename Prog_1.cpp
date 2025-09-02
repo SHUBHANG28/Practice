@@ -5,12 +5,25 @@ int main()
 {
 
     cout<<"CPP Calc"<<endl;
-
     int num1,num2;
     cout<<"Enter Numbers";
     cin>>num1>>num2;
 
+
+    int choice;
+
     cout<<"1. Sum \n2. Subtract \n3.Multilpication \n4.Division"<<endl;
+    cout<<"Enter choice : ";
+    cin>>choice;
+
+    switch(choice)
+    {
+        case 1:
+        {
+            cout<<"Sum is : "<<num1+num2<<endl;
+        }
+    }
+
 
 
     cout<<"edit.shubh";
